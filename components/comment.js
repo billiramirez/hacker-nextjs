@@ -29,18 +29,18 @@ const Comment = ({ comment }) => (
           font-size: 0.9rem;
         }
 
-        .comment-content p {
+        .comment-content :global(p) {
           margin: 0;
           margin-bottom: 0.5em;
           word-wrap: break-word;
         }
 
-        .comment-content a {
+        .comment-content :global(a) {
           color: #f60;
           text-decoration: underline;
         }
 
-        .comment-content pre {
+        .comment-content :global(pre) {
           max-width: 100%;
           overflow: scroll;
         }
